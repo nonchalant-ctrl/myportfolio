@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: #0A0F0D;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar img{
+    width: 200px;
+}
+
+article div button{
+    color: white;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 50px;
+}
+
+.navbar ul li:hover{
+    text-decoration: underline;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    display: flex;
+    gap: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+header h2 span{
+    color: #0F5132;
+}
+
+header div{
+    padding: 50px;
+}
+
+header h4{
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+header h2{
+    width: 350px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+header p{
+    width: 600px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 60%;
+}
+
+header img{
+    width: 30%;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-right: -100px;
+    cursor: pointer;
+}
+
+header img:hover{
+    box-shadow: 0 2px 5px #10B981;
+    /* transform: scale(1.05);
+    transition: 1.2s; */
+}
+
+header .link{
+    text-decoration: none;
+    background-color: black;
+    color: #10B981;
+    padding: 5px 15px ;
+    border-radius: 20px;
+    font-size: 50%;
+}
+
+header .link:hover{
+    box-shadow: 0 2px 5px #10B981
+}
+
+header .download{
+    text-decoration: none;
+    padding: 5px 15px ;
+    border-radius: 20px;
+    font-size: 50%;
+    color: #10B981;
+    border: 0.5px solid #10B981;
+}
+
+header .download:hover{
+    background-color: #bbcfc9;
+}
+
+.Quality{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
+
+main h2{
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+main .sentence{
+    text-align: center;
+    font-size: 50%;
+    width: 40%;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 50%;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.Quality h5{
+    font-size: 25px;
+    width: 500px;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: white;
+}
+
+.Quality:hover{
+    background-color: black;
+    color: #0F5132;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.Quality p{
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 60%;
+    color: white;
+}
+
+main a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    background: linear-gradient(135deg, #050505 0%, #071A12 50%, #0F5132 100%);
+    padding-top: 10px;
+    margin-top: 20px;
+    height: 20%;
+    padding-bottom: 50px;
+}
+
+section img{
+    width: 180%;
+    border-radius: 10px;
+}
+
+section h2{
+    text-align: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+section div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 20px;
+    padding-right: 50px;
+    row-gap: 30px;
+    gap: 30px;
+}
+
+section div h6{
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+    width: 200px;
+    line-height: 18px;
+}
+
+section a{
+    text-decoration: none;
+}
+
+section div p{
+    font-size: 50%;
+    width: 200px;
+    color: rgb(233, 227, 227);
+    margin-top: 10px;
+}
+
+figure{
+    background: linear-gradient(135deg, #050505 0%, #071A12 50%, #0F5132 100%);
+    padding-top: 10px;
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+
+figure h2{
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+.project{
+    background-color: #0F5132;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.project:hover{
+    box-shadow: 0 2px 10px black;
+}
+
+.profile img{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile h6{
+    font-size: 15px;
+    color: white;
+}
+
+.review-tab p{
+    font-size: 20%;
+    width: 300px;
+    color: white;
+}
+
+.review-tab{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+}
+
+.go{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+article{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 27%;
+}
+
+article img{
+    width: 700px;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+article div{
+    padding-top: 50px;
+}
+
+article div h2{
+    font-size: 30px;
+    width: 200px;
+    color: #0F5132;
+}
+
+article form input{
+    width: 200%;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid #0F5132;
+    border-radius: 5px;
+}
+
+article textarea{
+    width: 200%;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid #0F5132;
+}
+
+article textarea:hover{
+    box-shadow: 0 2px 10px #0F5132;
+}
+
+article form input:hover{
+    box-shadow: 0px 2px 10px #0F5132;
+    transition-duration: 1s;
+}
+
+article :placeholder-shown{
+    padding: 10px;
+}
+
+article  button{
+    background-color: #10B981;
+     padding: 5px 15px ;
+    border-radius: 20px;
+    font-size: 50%;
+    border: none;
+}
+
+article button:hover{
+    background-color: black;
+    transition-duration: 1s;
+    box-shadow: 0 2px 10px #0F5132;
+}
+article button a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #050505;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer div img{
+    width: 200px;
+}
+
+footer div h4{
+    color: white;
+    font-size: 50%;
+}
+
+footer div li{
+    list-style-type: none;
+}
+
+footer div li a:hover{
+    text-decoration: underline;
+}
+
+footer div li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20%;
+    text-transform: uppercase;
+    color: #bbcfc9;
+}
+
+#date{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50%;
+}
+
+@media (max-width: 780px) {
+    .navbar{
+
+    }
+
+    .navbar img{
+        width: 20%;
+        padding-top: 6px;
+    }
+
+    .navbar ul li{
+        padding: 10px;
+    }
+    .navbar ul li a{
+        font-size: 40%;
+    }
+
+    #home{
+        flex-direction: column;
+        margin-bottom: 15px;
+        margin-top: 45px;
+    }
+
+    #home div{
+        padding-left: 20px;
+    }
+
+    #home div h2{
+        font-size: 30px;
+    }
+
+    #home div p{
+        width: 250px;
+    }
+
+    #home img{
+        width: 95%;
+        margin-top: -45%;
+        border-radius: 10px;
+       margin-left: 10px;
+    }
+
+    #services{
+    }
+
+    #services h2{
+    }
+
+    #services p{
+        width: 100%;
+        margin: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 30px;
+    }
+
+    #services .Quality{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 0px;
+    }
+
+    #services .Quality h5{
+        padding: 0px;
+        padding-top: 20px;
+    }
+
+    #services .Quality p{
+        padding: 0px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    section div{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0px;
+        row-gap: 20px;
+        margin-left: 10px;
+    }
+
+    section div .project{
+        width: 100%;
+        height: 100%;
+    }
+
+    .project img{
+        width: 100%;
+    }
+
+    .review-tab{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #contact{
+        flex-direction: column;
+    }
+
+    #contact form input{
+        width: 100%;
+    }
+
+    #contact textarea{
+        width: 100%;
+    }
+
+    #contact img{
+        width: 100%;
+        height: 300px;
+    }
+
+    footer{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    footer div img{
+        padding-bottom: 30px;
+    }
+
+    footer div h4{
+        font-size: 20px;
+        padding-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    footer div li{
+        font-size: 60px;
+    }
+
+    footer p{
+        font-size: 100%;
+        padding-bottom: 40px;
+        padding-top: 50px;
+    }
+}
